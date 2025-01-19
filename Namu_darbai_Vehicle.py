@@ -1,5 +1,5 @@
 class Vehicle:
-    def __init__(self, brand, age, mark, color="blue", weight="2000kg"):
+    def __init__(self, brand, age, mark, color="unknown", weight="unknown"):
         self.brand = brand
         self.age = age
         self.mark = mark
